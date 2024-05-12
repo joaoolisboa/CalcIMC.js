@@ -30,7 +30,7 @@ function imc () {
             classificacao = 'com obesidade grau II.';
         }
         else {
-            classificacao = 'Obesidade grau III. Cuidado!';
+            classificacao = 'com obesidade grau III. Cuidado!';
         }
 
         resultado.textContent = `${nome} Seu IMC é ${valorIMC} e você está ${classificacao}`;
